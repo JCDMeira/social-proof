@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import { StarField } from "./components/StarField";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
                 services.
               </p>
             </div>
-            <div className="infoStar"></div>
+            <div className="infoStar">
+              <StarField value={5}>Rated 5 Stars in Reviews</StarField>
+            </div>
           </div>
 
           <div className="bottomInfo"></div>

@@ -1,0 +1,10 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 87.2%;
+  background: #f7f2f8;
+  height: 8rem;
+  border-radius: 1rem;
+}
