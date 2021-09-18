@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Spartan;
+}
+
+.conteiner {
+  width: 100%;
+  height: 188.4236vh; /* 1530px */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  height: 176.10837vh; /* 1430px */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background: coral;
+}
+
+.topInfo {
+  height: 71.42857vh; /* 580px */
+  background: gray;
+}
+
+.infoText {
+  height: 32.7586vh; /* 266px */
+
+  background: violet;
+}
+
+.infoStar {
+  height: 38.546798vh;
+
+  background: wheat;
+}
+
+.bottomInfo {
+  height: 104.6798vh; /* 850px */
+
+  background: turquoise;
+}
