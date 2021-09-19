@@ -18,6 +18,8 @@ function App() {
             </div>
             <div className="infoStar">
               <StarField value={5}>Rated 5 Stars in Reviews</StarField>
+              <StarField value={5}>Rated 5 Stars in Report Guru</StarField>
+              <StarField value={5}>Rated 5 Stars in BestTech</StarField>
             </div>
           </div>
 
