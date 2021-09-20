@@ -34,10 +34,42 @@
     border-radius: 1rem;
     margin-top: 1.5rem;
     z-index: 3;
-    padding: 0 2.5rem;
+    padding: 0;
     padding-top: 0.55rem;
   }
 
+  .field:nth-child(1) {
+    margin-left: 1.7rem;
+  }
+
+  .field:nth-child(2) {
+    margin-left: 3.4rem;
+    margin-top: 2rem;
+  }
+
+  .field:nth-child(3) {
+    margin-left: 5.1rem;
+  }
+
+  .field p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+    color: #502050;
+  }
+
+  .field .stars img {
+    margin: 0 0.4rem;
+  }
+
+  .field .stars img:last-child {
+    padding: 0 2.9rem 0 0;
+  }
+}
+@media (min-width: 1025px) {
+  .field {
+    padding: 0 2.5rem;
+  }
   .field:nth-child(1) {
     margin-left: 1.7rem;
   }
@@ -49,20 +81,5 @@
 
   .field:nth-child(3) {
     margin-left: 11.1rem;
-  }
-
-  .field p {
-    font-size: 1.3rem;
-    font-weight: 700;
-    line-height: 2.2rem;
-    color: #502050;
-  }
-
-  .field .stars img {
-    margin: 0 0.5rem;
-  }
-
-  .field .stars img:last-child {
-    padding: 0 2rem 0 0;
   }
 }

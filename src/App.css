@@ -107,6 +107,7 @@ html {
   .content {
     margin: auto;
     height: auto;
+    max-height: 80rem;
     max-width: 120rem;
     display: block;
     z-index: 2;
@@ -116,6 +117,7 @@ html {
     background: rgba(255, 255, 255, 0);
     max-width: 120rem;
     height: 45vh;
+    max-height: 40rem;
     display: flex;
     flex: 1;
   }
@@ -128,7 +130,7 @@ html {
     font-weight: 700;
     line-height: 4.8rem;
     text-align: left;
-    padding: 0 18rem 0 4.6rem;
+    padding: 0 10rem 0 4.6rem;
     color: #502050;
   }
 
@@ -156,10 +158,17 @@ html {
   .bottomInfo {
     max-width: 120rem;
     height: 45vh;
+    max-height: 40rem;
     display: flex;
     flex-direction: row;
     justify-content: initial;
-    align-items: center;
+    align-items: initial;
     margin-top: 0.5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .infoText h1 {
+    padding: 0 18rem 0 4.6rem;
   }
 }
