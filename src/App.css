@@ -11,15 +11,20 @@ html {
 
 .conteiner {
   width: 100%;
-  height: 188.4236vh; /* 1530px */
+  /* 1530px */
+  /* height: 188.4236vh;  */
+  height: 153rem;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: initial;
+  padding-top: 5rem;
 }
 
 .content {
   width: 100%;
-  height: 176.10837vh; /* 1430px */
+  /* 1430px */
+  /* height: 176.10837vh; */
+  height: 143rem;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -69,7 +74,12 @@ html {
 }
 
 .bottomInfo {
-  height: 104.6798vh; /* 850px */
-
-  background: turquoise;
+  /* 850px */
+  /* height: 104.6798vh;  */
+  height: 90rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.5rem;
 }

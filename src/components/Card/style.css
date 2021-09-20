@@ -1,0 +1,48 @@
+.card {
+  height: 25rem;
+  width: 88%;
+  background: #511f50;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 2.6rem 3rem 3rem;
+  color: #fff;
+  margin: 1.5rem 0;
+  border-radius: 1rem;
+  overflow: auto;
+}
+
+.card:nth-child(2) {
+  margin: 0rem 0;
+}
+
+.card .head {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 2.8rem;
+}
+
+.card .head img {
+  border-radius: 50%;
+  height: 40px;
+  margin-right: 2.5rem;
+}
+
+.card .head h1 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.card .head span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #ee68a4;
+  display: block;
+}
+
+.description {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 2.2rem;
+}
