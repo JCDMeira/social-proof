@@ -26,14 +26,29 @@
   .field {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    justify-content: left;
+    align-items: center;
     width: 44.5rem;
     background: #f7f2f8;
     height: 5.5rem;
     border-radius: 1rem;
     margin-top: 1.5rem;
     z-index: 3;
+    padding: 0 2.5rem;
+    padding-top: 0.55rem;
+  }
+
+  .field:nth-child(1) {
+    margin-left: 1.7rem;
+  }
+
+  .field:nth-child(2) {
+    margin-left: 6.4rem;
+    margin-top: 2rem;
+  }
+
+  .field:nth-child(3) {
+    margin-left: 11.1rem;
   }
 
   .field p {
@@ -45,5 +60,9 @@
 
   .field .stars img {
     margin: 0 0.5rem;
+  }
+
+  .field .stars img:last-child {
+    padding: 0 2rem 0 0;
   }
 }
