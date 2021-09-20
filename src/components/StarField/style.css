@@ -1,7 +1,7 @@
 .field {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   width: 87.2%;
   background: #f7f2f8;
@@ -9,4 +9,15 @@
   border-radius: 1rem;
 
   margin-top: 1.84729vh;
+}
+
+.star p {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 2.2rem;
+  color: #502050;
+}
+
+.star img {
+  margin: 0 1.5px;
 }
