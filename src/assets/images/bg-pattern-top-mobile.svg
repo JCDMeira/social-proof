@@ -1,12 +1,1 @@
-<!-- <svg width="374" height="232" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="100%" y1="69.24%" x2="9.399%" y2="32.157%" id="a"><stop stop-color="#8A4389" stop-opacity="0" offset="0%"/><stop stop-color="#512051" offset="100%"/><stop stop-color="#512051" offset="100%"/><stop stop-color="#512051" offset="100%"/></linearGradient></defs><path d="M0 232c25.63-53.065 74.118-86.618 145.464-100.66 107.018-21.062 66.506-42.306 119.083-84.466C299.6 18.767 336.083 3.143 374 0v232H0z" transform="rotate(180 187 116)" fill="url(#a)" fill-rule="evenodd" opacity=".05"/></svg> -->
-<svg width="374" height="232" viewBox="0 0 374 232" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M374 0C348.37 53.065 299.882 86.618 228.536 100.66C121.518 121.722 162.03 142.966 109.453 185.126C74.4 213.233 37.917 228.857 0 232V0L374 0Z" fill="black" fill-opacity="0.5"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="374" height="232" fill="white"/>
-</clipPath>
-</defs>
-</svg>
-
+<svg width="374" height="232" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="100%" y1="69.24%" x2="9.399%" y2="32.157%" id="a"><stop stop-color="#8A4389" stop-opacity="0" offset="0%"/><stop stop-color="#512051" offset="100%"/><stop stop-color="#512051" offset="100%"/><stop stop-color="#512051" offset="100%"/></linearGradient></defs><path d="M0 232c25.63-53.065 74.118-86.618 145.464-100.66 107.018-21.062 66.506-42.306 119.083-84.466C299.6 18.767 336.083 3.143 374 0v232H0z" transform="rotate(180 187 116)" fill="url(#a)" fill-rule="evenodd" opacity=".05"/></svg>
