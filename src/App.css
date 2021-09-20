@@ -76,8 +76,9 @@ html {
     height: 45vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 0;
+    padding: 9rem 0 0 0;
   }
 
   .bottomInfo {
