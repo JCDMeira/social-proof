@@ -5,11 +5,21 @@ import { Card } from "./components/Card";
 import photo1 from "./assets/images/image-colton.jpg";
 import photo2 from "./assets/images/image-irene.jpg";
 import photo3 from "./assets/images/image-anne.jpg";
+import backTopDesktop from "./assets/images/bg-pattern-top-desktop.svg";
+import backBottomDesktop from "./assets/images/bg-pattern-bottom-desktop.svg";
+import backTopMobile from "./assets/images/bg-pattern-top-mobile.svg";
+import backBottomMobile from "./assets/images/bg-pattern-bottom-mobile.svg";
 
 function App() {
+  const widthDevice = window.screen.width;
   return (
     <div className="App">
       <div className="conteiner">
+        <img
+          className="top-background"
+          src={widthDevice > 1023 ? backTopDesktop : backTopMobile}
+          alt=""
+        />
         <div className="content">
           <div className="topInfo">
             <div className="infoText">
@@ -47,6 +57,11 @@ function App() {
             </Card>
           </div>
         </div>
+        <img
+          className="bottom-background"
+          src={widthDevice > 600 ? backBottomDesktop : backBottomMobile}
+          alt=""
+        />
       </div>
     </div>
   );

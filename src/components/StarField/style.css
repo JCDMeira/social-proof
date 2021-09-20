@@ -7,18 +7,17 @@
   background: #f7f2f8;
   height: 8rem;
   border-radius: 1rem;
-
-  /* margin-top: 1.84729vh; */
   margin-top: 1.5rem;
+  z-index: 3;
 }
 
-.star p {
+.field p {
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 2.2rem;
   color: #502050;
 }
 
-.field .star img {
-  margin: 0 1.5px;
+.field .stars img {
+  margin: 0 0.5rem;
 }

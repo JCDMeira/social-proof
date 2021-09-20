@@ -9,42 +9,42 @@ html {
   font-family: Spartan;
 }
 
+.top-background {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+.bottom-background {
+  position: absolute;
+  bottom: -720px;
+  right: 0;
+  width: auto;
+  z-index: 1;
+}
+
 .conteiner {
   width: 100%;
-  /* 1530px */
-  /* height: 188.4236vh;  */
   height: 153rem;
-  display: flex;
-  justify-content: center;
-  align-items: initial;
-  padding-top: 5rem;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: initial; */
+  /* margin-top: 5rem; */
 }
 
 .content {
   width: 100%;
-  /* 1430px */
-  /* height: 176.10837vh; */
   height: 143rem;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
+  z-index: 2;
 }
 
 .topInfo {
-  /* 580px */
-  /* height: 71.42857vh;  */
   background: #fff;
 }
 
-/* .infoText {
-  266px
-  height: 32.7586vh;
-  height: 29.91131vh;
-} */
-
 .infoText h1 {
-  margin-top: 3.1rem;
+  margin-top: 8.1rem;
   font-size: 3rem;
   font-weight: 700;
   line-height: 3.3rem;
@@ -65,7 +65,6 @@ html {
 }
 
 .infoStar {
-  /*80px*/
   height: 38.546798vh;
   display: flex;
   flex-direction: column;
@@ -74,8 +73,6 @@ html {
 }
 
 .bottomInfo {
-  /* 850px */
-  /* height: 104.6798vh;  */
   height: 90rem;
   display: flex;
   flex-direction: column;
