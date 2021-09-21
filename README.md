@@ -28,7 +28,6 @@ Users should be able to:
 
 ### Mobile design
 
-<!--
 <p  align="center">
   <img width="300px" src="./presentation/mobile.png" align="center"></img>
 </p>
@@ -41,6 +40,7 @@ Users should be able to:
 
 <p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
 
+<!--
 ### result of my work
 
 <p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p>
@@ -48,7 +48,9 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution for this challenge](https://www.frontendmentor.io/solutions/profile-card-with-reactjs-4Rvn40r0b)
-- Live Site URL: [check the result ](https://jcdmeira-profile-card.netlify.app) -->
+- Live Site URL: [check the result ](https://jcdmeira-profile-card.netlify.app)
+- My figma design: [Figma](https://www.figma.com/file/N0GBXW15RxbMLwgolSHLND/05---social-proof?node-id=0%3A1)
+ -->
 
 ## My process
 
@@ -57,62 +59,59 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-<!--
 
 ### What I learned
 
-When we need to show only a part of an image, we should use overflow, but image with position defined as "absolute" does not suit "hidden" overflow well.
-An alternative was to use position as "fixed"
+Due to the use of different images for mobile and desktop devices it is possible to use ternary operation in the image path, giving the desired result.
 
-```CSS
-  #top {
-  position: fixed;
-  width: 978px;
-  height: 978px;
-  left: -750px;
-  top: -600px;
-}
-#bottom {
-  position: fixed;
-  width: 978px;
-  height: 978px;
-  left: 150px;
-  top: 294px;
-  z-index: 1;
-}
-
+```jsx
+<img
+  className="top-background"
+  src={widthDevice > 1023 ? backTopDesktop : backTopMobile}
+  alt=""
+/>
 ```
 
-For the responsive design to be effective, it was necessary to use relative units based on the screen size, such as vw (viewport width) and vh (viewport height) which use the width and height of the viewport respectively. And for that I used the px conversion [calculator](https://it-news.pw/pxtovh/) for these measurements.
+To show the rating from 0 to 5 stars it is possible to make an array with 5 positions, filled with false in all positions, then the component receives the numeric value of the rating through the props, iterating over the array and changing the values from false to true according to the value received by the props. If you get 0 none are changed, while 5 all are changed.
+Inside the component's return it traverses the constant, where for each "true" value it renders a filled star, and for each "false" an empty star, forming the note.
 
-```CSS
-  @media (min-width: 768px) {
-  #top {
-    position: fixed;
-    width: 67.9166vw;
-    height: 135.833vh;
-    left: -20vw;
-    top: -69.444vh;
-  }
+```JSX
 
-  #bottom {
-    position: fixed;
-    width: 67.9166vw;
-    height: 135.833vh;
-    left: 48vw;
-    top: 52vh;
-    z-index: 1;
+function StarField({ value, children }) {
+  const mapV = [false, false, false, false, false];
+
+  for (let i = 0; i < value; i++) {
+    mapV[i] = true;
   }
+  return (
+    <div className="field">
+      <div className="stars">
+        {mapV.map((p, index) => {
+          return p === true ? (
+            <img key={index} src={star} alt="" />
+          ) : (
+            <img key={index} src={startOff} alt="" />
+          );
+        })}
+      </div>
+      <div>
+        <p>{children}</p>
+      </div>
+    </div>
+  );
 }
+
+export { StarField };
 
 ```
 
 ### Useful resources
 
 - [react tutorial](https://pt-br.reactjs.org/tutorial/tutorial.html) - This helped me structure the components and build the proposed page.
-- [my figma design](https://www.figma.com/file/PWaDMZ72cyiyXyOog48yHy/4---Profile-card-component---frontend-Mentor?node-id=0%3A1) - My figma design for help anyone who wants to build this challenge.
+- [my figma design](https://www.figma.com/file/N0GBXW15RxbMLwgolSHLND/05---social-proof?node-id=0%3A1) - My figma design for help anyone who wants to build this challenge.
 - [CSS units conversor - px to VH/VW/REM](https://it-news.pw/pxtovh/) - CSS units conversor .
-- [CSS - overflow](https://www.w3schools.com/css/css_overflow.asp) - This is an article that helped me understand overflow properties. -->
+- [CSS - overflow](https://stackoverflow.com/questions/57894947/how-to-show-images-in-react-using-a-loop) - How to show images in react using a loop.
+- [Ternary](https://stackoverflow.com/questions/41092677/ternary-operator-on-style-with-react-js-es-6) - Ternary inside tags HTML
 
 ## Author
 
