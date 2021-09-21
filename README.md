@@ -40,17 +40,15 @@ Users should be able to:
 
 <p  align="center"><img width="720px" src="./presentation/desktop.png" align="center"></img></p>
 
-<!--
 ### result of my work
 
 <p  align="center"><img width="1080px" src="./presentation/design-x-myWork.gif" align="center"></img></p>
 
 ### Links
 
-- Solution URL: [My solution for this challenge](https://www.frontendmentor.io/solutions/profile-card-with-reactjs-4Rvn40r0b)
+- Solution URL: [My solution for this challenge](https://www.frontendmentor.io/solutions/social-proof-with-reactjs-fOSUMfzW_)
 - Live Site URL: [check the result ](https://jcdmeira-social-proof.netlify.app)
 - My figma design: [Figma](https://www.figma.com/file/N0GBXW15RxbMLwgolSHLND/05---social-proof?node-id=0%3A1)
- -->
 
 ## My process
 
