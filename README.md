@@ -48,7 +48,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution for this challenge](https://www.frontendmentor.io/solutions/profile-card-with-reactjs-4Rvn40r0b)
-- Live Site URL: [check the result ](https://jcdmeira-profile-card.netlify.app)
+- Live Site URL: [check the result ](https://jcdmeira-social-proof.netlify.app)
 - My figma design: [Figma](https://www.figma.com/file/N0GBXW15RxbMLwgolSHLND/05---social-proof?node-id=0%3A1)
  -->
 
